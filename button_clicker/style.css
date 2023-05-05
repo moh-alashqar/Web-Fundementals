@@ -1,0 +1,145 @@
+/* ================= Reset ================= */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Dosis;
+}
+
+/* ================= Fonts ================= */
+@font-face {
+    font-family: Dosis;
+    src: url(fonts\Dosis\Dosis-VariableFont_wght.ttf);
+}
+
+/* ================= Header ================= */
+#header {
+    width: 50%;
+    background-color: #355764;
+    margin: 0 auto;
+    min-width: 500px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+#title {
+    color: whitesmoke;
+}
+
+#search-box {
+    width: 40%;
+    padding: 1px 5px;
+}
+
+#login {
+    padding: 3px 20px;
+    background-color: #81CACF;
+    color: #355764;
+    font-weight: 700;
+    border: 1px solid #81CACF;
+    min-width: 11%;
+}
+
+/* ================= Main ================= */
+#main {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+    min-width: 500px;
+}
+
+/* ================= Main - Right ================= */
+#rt-sec {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ================= Main - Right - Item ================= */
+#rt-item {
+    padding: 20px 20px;
+    box-shadow: 0px 0px 3px 0.1px grey;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#item-main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+#item-name {
+    text-align: center;
+}
+
+#item-type {
+    font-style: italic;
+    font-size: 13pt;
+    text-align: center;
+}
+
+#item-plural {
+    text-align: center;
+    font-size: 10pt;
+}
+
+#item-plural-content {
+    font-style: italic;
+}
+
+#likes {
+    margin-top: 15px;
+    padding: 5px;
+    background-color: #E2D784;
+    border: 0px;
+    box-shadow: 1px 1px 3px 0.1px gray;
+}
+
+#item-desc {
+    font-size: 16pt;
+    flex: 4;
+}
+
+/* ================= Main - Left ================= */
+#lft-sec {
+    flex: 1;
+}
+
+/* ================= Main - Left - Item ================= */
+#lft-item {
+    box-shadow: 0px 0px 3px 0.1px grey;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#item-def {
+    font-size: 25pt;
+    font-weight: 500;
+}
+
+#def-bold {
+    font-weight: 700;
+}
+
+#add {
+    padding: 5px;
+    width: 100px;
+    background-color: #5A8F7B;
+    color: whitesmoke;
+    border: 0px;
+    box-shadow: 1px 1px 3px 0.1px gray;
+    margin: 0 auto;
+}

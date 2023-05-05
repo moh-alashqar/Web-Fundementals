@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <meta name="description" content="Button Clicker">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="author" content="Mohammed Alashqar">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="navbar">
+            <h1 id="title">Dojonary</h1>
+            <input id="search-box" placeholder="Search"></input>
+            <button id="login" onclick="login(this)">Login</button>
+        </div>
+    </div>
+    <div id="main">
+        <div id="rt-sec">
+            <div id="rt-item">
+                <div id="item-main">
+                    <h1 id="item-name">ninja</h1>
+                    <h2 id="item-type">noun</h2>
+                    <h2 id="item-plural">Plural:<span id="item-plural-content"> ninjas</span></h2>
+                    <button id="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <p id="item-desc">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+            <div id="rt-item">
+                <div id="item-main">
+                    <h1 id="item-name">ninja</h1>
+                    <h2 id="item-type">noun</h2>
+                    <h2 id="item-plural">Plural:<span id="item-plural-content"> ninjas</span></h2>
+                    <button id="likes" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <p id="item-desc">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen-</a>like focus</p>
+            </div>
+        </div>
+        <div id="lft-sec">
+            <div id="lft-item">
+                <h1 id="item-def">Dojonary is defined by <span id="def-bold">YOU</span></h1>
+                <button id="add" onclick="add(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

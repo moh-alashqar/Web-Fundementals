@@ -1,0 +1,24 @@
+{
+  rustType: 'deep dish',
+  sauceType: 'traditional',
+  cheeses: [ 'mozzarella' ],
+  toppings: [ 'pepperoni', 'sausage' ]
+}
+{
+  rustType: 'hand tossed',
+  sauceType: 'marinara',
+  cheeses: [ 'mozzarella', 'feta' ],
+  toppings: [ 'mushrooms', 'olives', 'onions' ]
+}
+{
+  rustType: 'Stuffed',
+  sauceType: 'Pesto',
+  cheeses: [ 'mozzarella', 'Cheddar' ],
+  toppings: [ 'extra cheese', 'black olives', 'onions' ]
+}
+{
+  rustType: 'Cheesy Bites',
+  sauceType: 'White Garlic Sauce',
+  cheeses: [ 'Goat Cheese', 'mozzarella' ],
+  toppings: [ 'olives', 'onions', 'sasuge' ]
+}

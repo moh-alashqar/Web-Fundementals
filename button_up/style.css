@@ -1,0 +1,37 @@
+button { 
+    margin: 10px;
+    display: block;
+    background-color: black;
+}
+
+#btn-search{
+color: darkcyan;
+border: 1px solid darkcyan;
+border-radius: 20px;
+background-color: white;
+padding: 3px 35px;
+
+}
+
+#btn-add{
+font-size: 15px;
+color: white;
+background-color: darkcyan;
+border-radius: 50%;
+border: 0px;
+padding: 5px;
+width: 30px;
+height: 30px;
+}
+
+#btn-create{
+background-color:royalblue;
+color: white;
+padding: 5px 25px;
+border: 2px solid black;
+box-shadow: 2px 2px black;
+}
+
+/* [href] {
+    color: red;
+} */

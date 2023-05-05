@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div id="header-navbar">
+            <h1 id="header-navbar-title">DojoWeather</h1>
+            <div id="header-navbar-sections">
+                <h2 class="header-navbar-sections-item" onclick="citySelect()">Burbank</h2>
+                <h2 class="header-navbar-sections-item" onclick="citySelect()">Chicago</h2>
+                <h2 class="header-navbar-sections-item" onclick="citySelect()">Dollas</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <div id="main-header">
+            <h1 id="main-header-current-item">San Jose</h1>
+            <div id="main-header-select">
+                <span id="main-header-select-title">show temperature in </span>
+                <select onchange="unitChange(this)" name="temp-unit" id="main-header-select">
+                    <option class="main-header-select-option" value="c">°C</option>
+                    <option class="main-header-select-option" value="f">°F</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="main-container">
+
+            <div class="main-container-item">
+                <h1 class="main-container-item-name">Today</h1>
+                <img class="main-container-item-img" src="assets/some_rain.png" alt="item picture">
+                <span class="main-container-item-descr">some rain</span>
+                <div class="main-container-item-values">
+                    <span class="main-container-item-values-item" id="main-container-item-values-lft">24°</span>
+                    <span class="main-container-item-values-item" id="main-container-item-values-rt">18°</span>
+                </div>
+            </div>
+
+            <div class="main-container-item">
+                <h1 class="main-container-item-name">Tomorrow</h1>
+                <img class="main-container-item-img" src="assets/some_sun.png" alt="descr picture">
+                <span class="main-container-item-descr">some sun</span>
+                <div class="main-container-item-values">
+                    <span class="main-container-item-values-item" id="main-container-item-values-lft">27°</span>
+                    <span class="main-container-item-values-item" id="main-container-item-values-rt">19°</span>
+                </div>
+            </div>
+
+            <div class="main-container-item">
+                <h1 class="main-container-item-name">Friday</h1>
+                <img class="main-container-item-img" src="assets/some_clouds.png" alt="descr picture">
+                <span class="main-container-item-descr">some clouds</span>
+                <div class="main-container-item-values">
+                    <span class="main-container-item-values-item" id="main-container-item-values-lft">21°</span>
+                    <span class="main-container-item-values-item" id="main-container-item-values-rt">16°</span>
+                </div>
+            </div>
+
+            <div class="main-container-item">
+                <h1 class="main-container-item-name">Saturday</h1>
+                <img class="main-container-item-img" src="assets/some_sun.png" alt="descr picture">
+                <span class="main-container-item-descr">some sun</span>
+                <div class="main-container-item-values">
+                    <span class="main-container-item-values-item" id="main-container-item-values-lft">26°</span>
+                    <span class="main-container-item-values-item" id="main-container-item-values-rt">21°</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-cookie">
+        <img id="popup-cookie-icon" src="assets/cookie.png" alt="cookie icon">
+        <div id="popup-cookie-msg">
+            <h1 id="popup-cookie-msg-title">Stop! Cookie time</h1>
+            <p id="popup-cookie-msg-content">We use cookies (sadly not the edible ones) to personalize content and adsm to provide social media features and to analyse our traffic. <a id="popup-cookie-msg-content-readmore" href="#">Read more...</a> </p>
+        </div>
+        <button id="popup-cookie-btn" onclick="cookieAccept(this)">I Accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

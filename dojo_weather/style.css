@@ -1,0 +1,178 @@
+/* --------------------- Def --------------------- */
+@font-face {
+    font-family: Dosis;
+    src: url(assets/fonts/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+/* --------------------- Reset --------------------- */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Dosis;
+}
+
+/* --------------------- Header --------------------- */
+#header {
+    width: initial;
+    background-color: #9FC5F8;
+    color: whitesmoke;
+}
+
+#header-navbar {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    gap: 100px;
+}
+
+#header-navbar-title {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+#header-navbar-sections {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20%;
+}
+
+.header-navbar-sections-item {
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* --------------------- Main --------------------- */
+#main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* --------------------- Main - Header --------------------- */
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 1px groove rgb(0, 0, 0);
+}
+
+#main-header-current-item {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#main-header-select-title {
+    margin-right: 5px;
+}
+
+#main-header-select {
+
+}
+
+.main-header-select-option {
+    
+}
+
+/* --------------------- Main - Container --------------------- */
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-container-item {
+    width: 21.5%;
+    background-color: #EEEEEE;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-container-item-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.main-container-item-img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.main-container-item-descr {
+    font-weight: 600;
+}
+
+.main-container-item-values {
+display: flex;
+gap: 60px;
+}
+
+.main-container-item-values-item {
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+#main-container-item-values-lft {
+    color: #D03A38;
+}
+
+#main-container-item-values-rt {
+    color: #2B78E4;
+}
+
+/* --------------------- Popup --------------------- */
+#popup-cookie {
+    width: 50%;
+    margin: 0 auto;
+    position: fixed;
+    right: 25%;
+    bottom: 10%;
+    background-color: #EEEEEE;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+#popup-cookie-icon {
+    width: 50px;
+    margin-left: 15px;
+}
+
+#popup-cookie-msg {
+    margin: 15px 0px;
+}
+
+#popup-cookie-msg-title {
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+
+#popup-cookie-msg-content {
+    overflow: hidden;
+
+}
+
+#popup-cookie-msg-content-readmore {
+
+}
+
+#popup-cookie-btn {
+    margin-right: 15px;
+    padding: 3px 5px;
+    width: 15%;
+    background-color: #9FC5F8;
+    box-shadow: 1px 1px 2px 0.2px black;
+    overflow: hidden;
+}   
