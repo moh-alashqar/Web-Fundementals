@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Profile Page examplpe">
+        <meta name="keywords" content="HTML, CSS, Javascript">
+        <meta name="author" content="Mohammed Alashqar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <div id="navbar">
+                <div class="sec">
+                    <label id="title">Profile</label>
+                    <a href="#" class="sec-btn">Home</a>
+                    <a href="#" class="sec-btn">My Profile</a>
+                    <a href="#" class="sec-btn">Find Connection</a>
+                </div>
+                <div class="sign-out">
+                    <button id="sign-out-btn" onclick="displayAlert()">Sign Out</button>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div id="lft-sec">
+                <div id="info">
+                    <div id="info-bar"></div>
+                    <div id="info-content">
+                        <img id="pers-pic" src="images/Mohammed.png" alt="Personal Picture">
+                        <label id="full-name">Jane Doe</label>
+                        <div class="address-sec">
+                            <img id="map-icon" src="icons/map-marker.png" alt="Map Marker icon">
+                            <label id="address">Tulkarm</label>
+                        </div>
+                        <label id="professions">Developer | Engineer | Problem Solver</label>
+                        <label id="degree">Mechatronics Engineer</label>
+                        <div class="pro-edit">
+                            <img id="gear-icon" src="icons/gear.png" alt="Gear icon">
+                            <a onclick="editProfile()" href="#" id="pro-edit">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="edu">
+                    <div id="edu-header">
+                        <label id="edu-title">Education</label>
+                    </div>
+                    <div id="edu-content">
+                        <h1 id="edu-item">Coding Dojo - Full Stack Bootcamp</h1>
+                        <h2 id="edu-date">Oct 2022 - Feb 2023</h2>
+                        <p id="edu-discreption">Tripple black belt in Paython, MERN and Web Fundemetals</p>
+                    </div>
+                </div>
+            </div>
+            <div id="rt-sec">
+                <div id="req">
+                    <div id="req-header">
+                        <label id="req-count">2</label>
+                        <label id="req-title">Connection Requests</label>
+                    </div>
+                    <div id="req-item1" class="req-item1">
+                        <div id="req-info">
+                            <img id="req-pic" src="images/todd-s.jpg" alt="Personal Picture">
+                            <label id="req-name">Todd E</label>
+                        </div>
+                        <div id="acc-rej">
+                            <img onclick="accept('req-item1')" id="accept" src="icons/accept-circle.png" alt="Accept Icon">
+                            <img onclick="reject('req-item1')" id="reject" src="icons/close-circle.png" alt="Recject Icon">
+                        </div>
+                    </div>
+                    <div id="req-item2" class="req-item2">
+                        <div id="req-info">
+                            <img id="req-pic" src="images/phil-s.jpg" alt="Personal Picture"/>
+                            <label id="req-name">Phil K</label>
+                        </div>
+                        <div id="acc-rej">
+                            <img onclick="accept('req-item2')" id="accept" src="icons/accept-circle.png" alt="Accept Icon">
+                            <img onclick="reject('req-item2')" id="reject" src="icons/close-circle.png" alt="Recject Icon">
+                        </div>
+                    </div>
+                </div>
+                <div id="conn">
+                    <div id="conn-header">
+                        <label id="conn-count">500</label>
+                        <label id="conn-title">Your Connections</label>
+                    </div>
+                    <div id="conn-item">
+                        <img id="conn-pic" src="images/adrien-s.jpg" alt="Personal Picture">
+                        <label id="conn-name">Adrien D</label>
+                    </div>
+                    <div id="conn-item">
+                        <img id="conn-pic" src="images/anne-s.jpg" alt="Personal Picture">
+                        <label id="conn-name">Anne J</label>
+                    </div>
+                    <div id="conn-item">
+                        <img id="conn-pic" src="images/alayne-s.jpg" alt="Personal Picture">
+                        <label id="conn-name">Alayne T</label>
+                    </div>
+                    <div id="conn-item">
+                        <img id="conn-pic" src="images/arry-s.jpg" alt="Personal Picture">
+                        <label id="conn-name">Arry Y</label>
+                    </div>
+                    <div id="view-more">
+                        <a href="#" id="view-more">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Dosis;
+    font-size: 12pt;
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url(fonts\Dosis\Dosis-VariableFont_wght.ttf);
+}
+
+/*---------------- Header ----------------*/
+#header {
+    margin-top: 0px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#nav-bar {
+    padding: 7px 25px;
+    background-color: #3C4048;
+}
+
+#title {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 20pt;
+}
+
+#sec-title {
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18pt;
+}
+
+
+/*---------------- Main ----------------*/
+#main {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+/*---------------- Main - Right ----------------*/
+#rt-sec {
+    flex: 1;
+}
+
+#user-card {
+    box-shadow: 0px 0px 2px 0.2px grey;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#pers-pic {
+    height: 70px;
+    width: 70px;
+}
+
+#name {
+    text-align: center;
+    font-size: 19pt;
+}
+
+/*---------------- Main - Left ----------------*/
+#lft-sec {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container {
+    box-shadow: 0px 0px 2px 0.2px grey;
+    padding: 15px 20px;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#user {
+    font-size: 19pt;
+}
+
+#likes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+
+#like {
+    background-color: #FFD372;
+    padding: 2px 7px;
+    box-shadow: 1px 1px 2px 0.2px black;
+}
+
+#description {
+    font-size: 15pt;
+}

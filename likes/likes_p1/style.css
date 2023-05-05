@@ -1,0 +1,36 @@
+#container {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px 0.1px grey;
+    padding: 5px 20px;
+    border: 0.5px solid gray;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#user {
+    font-size: 27pt;
+}
+
+#likes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+
+#like {
+    background-color: #FFD372;
+    padding: 2px 7px;
+    box-shadow: 1px 1px 2px 0.2px black;
+}
+
+#description {
+    font-size: 18pt;
+}
