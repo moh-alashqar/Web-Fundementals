@@ -1,0 +1,290 @@
+/*=========================== Reset ===========================*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Dosis;
+}
+
+/*=========================== Fonts ===========================*/
+@font-face {
+    font-family: Dosis;
+    src: url(fonts\Dosis\Dosis-VariableFont_wght.ttf);
+}
+
+/*=========================== Header ===========================*/
+#header {
+    background-color: #3C4048;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+#navbar {
+    width: 50%;
+    min-width: 850px;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec {
+    display: flex;
+    gap: 70px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#title {
+    font-size: 20pt;
+    font-weight: 500;
+    color: #EAEAEA;
+}
+
+.sec-btn {
+    color: #EAEAEA;
+    text-decoration: none;
+
+}
+
+#sign-out-btn { 
+    padding: 5px 20px;
+    background-color: #00ABB3;
+    color: #EAEAEA;
+    font-weight: bold;
+    border: 0px solid;
+    margin-left: 70px;
+}
+
+/*=========================== Main ===========================*/
+#main {
+    margin: 0 auto;
+    width: 50%;
+    min-width: 850px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/*=========================== Main - left - Info ===========================*/
+#lft-sec { 
+    flex: 4;
+}
+
+#info {
+    box-shadow: 0px 0px 3px 1px gray;
+    padding-bottom: 30px;
+}
+
+#info-bar {
+    background-color: #00ABB3;
+    height: 80px;
+    width: inherit;
+}
+
+#info-content {
+    margin-left: 50px;
+    font-size: 13pt;
+    margin-right: 50px;
+}
+
+#pers-pic {
+    height: 100px;
+    border-radius: 50%;
+    margin: -50px 0px 10px 0px;
+    display: block;
+    box-shadow: 0px 0px 3px 1px gray;
+}
+
+#full-name {
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.address-sec {
+    margin: 10px 0px 5px 0px;
+}
+
+#map-icon {
+    height: 13px;
+    margin-right: 2px;
+}
+
+#professions, #degree {
+    display: block;
+}
+
+.pro-edit {
+    margin-top: 10px;
+}
+
+.pro-edit {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
+#gear-icon {
+    height: 13px;
+}
+
+/*=========================== Main - left - Edu ===========================*/
+#edu {
+    box-shadow: 0px 0px 3px 1px gray;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+#edu-header {
+    background-color: #3C4048;
+    padding: 10px 50px 10px 50px;
+}
+
+#edu-title {
+    color: #EAEAEA;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+#edu-content {
+    padding: 10px 50px 10px 50px;
+}
+
+#edu-item {
+    margin-top: 15px;
+    font-size: 19pt;
+}
+
+#edu-date {
+    font-size: 12pt;
+    margin: 15px 0px 5px 0px;
+    color: grey;
+    font-weight: normal;
+}
+
+#edu-discreption {
+    font-size: 12pt;
+}
+
+/*=========================== Main - Right ===========================*/
+#rt-sec {
+    flex: 2;
+}
+
+/*=========================== Main - Right - Connection Request ===========================*/
+#req {
+    box-shadow: 0px 0px 3px 1px gray;
+}
+
+#req-header {
+    background-color: #3C4048;
+    padding: 10px 15px 10px 15px;
+}
+
+#req-count {
+    color: #3C4048;
+    background-color: #EAEAEA;
+    font-size: 14pt;
+    font-weight: 400;
+    border-radius: 50%;
+    padding: 2px 8px 2px 8px ;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+#req-title {
+    color: #EAEAEA;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+#req-item {
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#req-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#req-pic {
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#req-name {
+    font-size: 15pt;
+}
+
+#acc-rej {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+#accept {
+    height: 30px;
+
+}
+
+#reject {
+    height: 30px;
+}
+
+
+/*=========================== Main - Right - Connections ===========================*/
+#conn {
+    box-shadow: 0px 0px 3px 1px gray;
+    margin-top: 30px;
+}
+
+#conn-header {
+    background-color: #3C4048;
+    padding: 10px 15px 10px 15px;
+}
+
+#conn-count {
+    color: #3C4048;
+    background-color: #EAEAEA;
+    font-size: 14pt;
+    font-weight: 400;
+    border-radius: 50%;
+    padding: 2px 8px 2px 8px ;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+#conn-title {
+    color: #EAEAEA;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+#conn-item {
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#conn-pic {
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#conn-name {
+    font-size: 15pt;
+}
+
+#view-more {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 3px solid rgb(213, 212, 212);
+}

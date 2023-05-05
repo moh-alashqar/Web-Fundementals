@@ -1,0 +1,38 @@
+@font-face {
+    font-family: BubbleboddyNeue-Bold;
+    src: url(fonts/BubbleboddyNeue-Bold.ttf);
+}
+
+h1 {
+    background-color: black; 
+    padding: 2px 15px; 
+    margin: 5px;
+    font-family: BubbleboddyNeue-Bold;
+}
+
+#my {
+    color: aliceblue;
+}
+
+#cloud { 
+    color: aqua;
+}
+
+h2 {
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    text-align: right;
+    text-decoration: underline;
+    background-color: cornflowerblue;
+    padding: 5px 20px;
+    margin: 5px;
+}
+

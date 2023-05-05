@@ -1,0 +1,25 @@
+.container {
+    width: 960px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: silver;
+    display: flex; /* apply flex to the parent element to make the coloumns fit the contatiner's width */
+    align-items: center; /* align-items only works with flex applied */
+    justify-content: space-evenly;
+}
+
+.col {
+    background-color: blanchedalmond;
+    padding: 10px;
+    width: 200px;
+}
+
+.col-2 {
+    background-color: lightcyan;
+    padding: 10px;
+    width: 400px;
+}
+
+.col p, .col-2 p {
+    font-size: 1.2rem;
+}
