@@ -1,0 +1,328 @@
+/* ------------- Def ------------- */
+@font-face {
+    font-family: Dosis;
+    src: url(assets\fonts\Dosis\Dosis-VariableFont_wght.ttf);
+}
+/* ------------- Reset ------------- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Dosis;
+}
+/* ------------- Header ------------- */
+#header {
+    background-color: #563D7C;
+}
+
+/* ------------- Header - Navbar ------------- */
+#header-navbar {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------------- Header - Navbar -lft ------------- */
+#header-navbar-lft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#header-navbar-logo {
+
+}
+
+#header-navbar-lft-sections-item-current {
+    color: whitesmoke;
+}
+
+#header-navbar-lft-sections {
+    display: flex;
+    gap: 15px;
+}
+
+.header-navbar-lft-sections-item {
+    color: #C6B7DD;
+    cursor: pointer;
+}
+
+/* ------------- Header - Navbar -rt ------------- */
+#header-navbar-rt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#header-navbar-rt-select {
+    background-color: #563D7C;
+    border: 0;
+    color: #C6B7DD;
+    font-size: 1rem;
+}
+
+#header-navbar-rt-contacts {
+    display: flex;
+    gap: 10px;
+}
+
+.header-navbar-rt-contacts-item {
+    cursor: pointer;
+}
+
+#header-navbar-rt-btn {
+    background-color: #563D7C;
+    padding: 5px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FADF84;
+    border: 1px solid #FADF84;
+    border-radius: 5px;
+}
+
+/* ------------- Main ------------- */
+#main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 70px 100px;
+}
+
+/* ------------- Main - Container ------------- */
+#main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------- Main - Container - lft ------------- */
+#main-container-lft {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 90%;
+}
+
+#main-container-lft-title {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #7952B3;
+}
+
+#main-container-lft-descr {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: grey;
+    font-size: 1.6rem;
+    width: 70%;
+}
+
+#main-container-lft-btns {
+    display: flex;
+    gap:15px;
+}
+
+.main-container-lft-btns-start {
+    background-color: white;
+    padding: 10px 50px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    color: #7952B3;
+    border: 2px solid #7952B3;
+}
+
+.main-container-lft-btns-download {
+    background-color: white;
+    padding: 10px 50px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    color: grey;
+    border: 2px solid gray;
+}
+
+.main-container-lft-btns-start-onmouseover {
+    background-color: #7952B3;
+    padding: 10px 50px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid black;
+}
+
+#main-container-lft-hint {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+/* ------------- Main - Container - ad ------------- */
+#main-container-lft-ad {
+    display: flex;
+    background-color: #F2F2F2;
+    padding: 15px;
+    gap: 15px;
+    width: 40%;
+    margin-top: 15px;
+}
+
+#main-container-lft-ad-img {
+
+}
+
+#main-container-lft-ad-content {
+
+}
+
+#main-container-lft-ad-content-descr {
+
+}
+
+#main-container-lft-ad-content-hint {
+    color: gray;
+}
+
+/* ------------- Main - Container - rt ------------- */
+#main-container-rt {
+
+}
+
+#main-container-rt-img {
+    width: 80%;
+    margin-top: 80px;
+}
+
+/* ------------- Main - Cards - Container ------------- */
+#main-cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.main-cards-container-item {
+    background-color: #F8F9FA;
+    width: 33%;
+}
+
+.main-cards-container-item-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 100px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid rgb(214, 214, 214);
+    width: 40%;
+}
+
+.main-cards-container-item-main-img {
+    width: 40px;
+    overflow: scroll;
+}
+
+.main-cards-container-item-main-title {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #3c3e41;
+}
+
+.main-cards-container-item-main-content {
+
+}
+
+.main-cards-container-item-main-content-descr {
+    color: #3c3e41;
+    margin-bottom: 20px;
+}
+
+.main-cards-container-item-main-content-snippet-title {
+    margin-top: 30px;
+    color: #3c3e41;
+    font-weight: 700;
+}
+
+.main-cards-container-item-main-content-snippet {
+    overflow: scroll;
+    overflow-y: hidden;
+    padding: 5px;
+}
+
+.main-cards-container-item-main-content-snippet-item{
+    display: block;
+}
+
+#main-cards-container-item-main-content-snippet-noscroll {
+    overflow: hidden;
+}
+
+.purple {
+    color: rgb(166, 83, 250);
+}
+
+.green {
+    color: green;
+}
+
+.main-cards-container-item-btn {
+    background-color: white;
+    padding: 7px 15px;
+    font-size: 1.1rem;
+    color: #3F9BFE;
+    border: 2px solid #3F9BFE;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.main-cards-container-item-main-content-snippet-title {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.dark-blue {
+    color: darkblue;
+}
+
+.blue {
+    color: rgb(52, 133, 255);
+}
+
+.orange {
+    color: rgb(243, 117, 71);
+}
+
+.main-cards-container-item-main-content-img {
+    width: 100%;
+}
+
+/* ------------- Footer ------------- */
+#footer {
+    background-color: #F7F7F7;
+    padding: 100px;
+    color: gray;
+}
+
+#footer-sections {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-weight: bold;
+}
+
+.footer-sections-item {
+    cursor: pointer;
+}
+
+#footer-descr {
+margin-top: 10px;
+}
+
+.black-bold {
+    font-weight: bold;
+}
+
+.block-p {
+    display: block;
+}

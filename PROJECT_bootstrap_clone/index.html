@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desctiption" content="Bootstrap is an open source toolkit for developing with HTML, CSS and JS.">
+    <meta name="keywords" content="Bootstrap, HTML, CSS, JavaScript">
+    <meta name="author" content="Mohammed Alashqar">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div id="header-navbar">
+            <div id="header-navbar-lft">
+                <img id="header-navbar-logo" src="assets/imgs/option-i-bootstrap/logo.png">
+                <div id="header-navbar-lft-sections">
+                    <span id="header-navbar-lft-sections-item-current" class="header-navbar-lft-sections-item">Home</span>
+                    <span class="header-navbar-lft-sections-item">Documentation</span>
+                    <span class="header-navbar-lft-sections-item">Examples</span>
+                    <span class="header-navbar-lft-sections-item">Themes</span>
+                    <span class="header-navbar-lft-sections-item">Expo</span>
+                    <span class="header-navbar-lft-sections-item">Blog</span>
+                </div>
+            </div>
+            <div id="header-navbar-rt">
+                <select id="header-navbar-rt-select">
+                    <option value="4.3">v4.3</option>
+                    <option value="4.2">v4.2</option>
+                    <option value="4.1">v4.1</option>
+                </select>
+                <div id="header-navbar-rt-contacts">
+                    <img class="header-navbar-rt-contacts-item" src="assets/imgs/option-i-bootstrap/ico-git.png">
+                    <img class="header-navbar-rt-contacts-item" src="assets/imgs/option-i-bootstrap/ico-twitter.png">
+                    <img class="header-navbar-rt-contacts-item" src="assets/imgs/option-i-bootstrap/ico-slack.png">
+                    <img class="header-navbar-rt-contacts-item" src="assets/imgs/option-i-bootstrap/ico-coll.png">
+                </div>
+                <button id="header-navbar-rt-btn">Download</button>
+            </div>
+        </div>
+    </div>
+    <div id = "main">
+        <div id="main-container">
+
+            <div id="main-container-lft">
+                <h1 id ="main-container-lft-title">Bootstrap</h1>
+                <p id="main-container-lft-descr">
+                    <span class="block-p">
+                        Build responsive, mobile-first projects on the web with the world's most popular front-end component library. 
+                    </span>
+                    <span class="block-p">
+                        Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.     
+                    </span>
+                </p>
+                <div id="main-container-lft-btns">
+                    <button class="main-container-lft-btns-start" onclick="getStarted()"
+                    onmouseover="mouseOver(this)" onmouseleave="mouseOut(this)">Get started</button>
+                    <button class="main-container-lft-btns-download">download</button>
+                </div>
+                <span id="main-container-lft-hint">Currently v4.3.1</span>
+                <div id="main-container-lft-ad">
+                    <img id="main-container-lft-ad-img" src="assets/imgs/option-i-bootstrap/ad-segment.png">
+                    <div id="main-container-lft-ad-content">
+                        <p id="main-container-lft-ad-content-descr">
+                            Collect customer data once with a single API. Power your entire tech stack.
+                        </p>
+                        <span id="main-container-lft-ad-content-hint">
+                            ads via Carbon
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="main-container-rt">
+                <img id="main-container-rt-img" src="assets/imgs/bootstrap-img.png">
+            </div>
+        </div>
+    </div>
+
+    <div id="main-cards-container">
+
+        <div class="main-cards-container-item">
+            <div class="main-cards-container-item-main">
+                <img class="main-cards-container-item-main-img" src="assets/imgs/option-i-bootstrap/ico-install.png">
+                <h1 class="main-cards-container-item-main-title">Installation</h1>
+                <div class="main-cards-container-item-main-content">
+                    <p class="main-cards-container-item-main-content-descr">
+                        Include Bootstrap's source Sass and JavaScript files via pm, Composer or Meteor. Package managed installs don't include documentation, but do include our build system and readme.
+                    </p>
+                    <p class="main-cards-container-item-main-content-snippet" id="main-cards-container-item-main-content-snippet-noscroll">
+                        <span class="purple">$</span> npm <span class="green">install</span> bootstrap
+                    </p>
+                    <p class="main-cards-container-item-main-content-snippet" id="main-cards-container-item-main-content-snippet-noscroll">
+                        <span class="purple">$</span> npm <span class="green">install</span> bootstrap <span class="green">-v</span> 4.3.1
+                    </p>
+                </div>
+                <span class="border-bottom">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+            </div>
+            <button class="main-cards-container-item-btn">Read installation docs</button>
+        </div>
+
+        <div class="main-cards-container-item">
+            <div class="main-cards-container-item-main">
+                <img class="main-cards-container-item-main-img" src="assets/imgs/option-i-bootstrap/ico-cdn.png">
+                <h1 class="main-cards-container-item-main-title">Bootstrap</h1>
+                <div class="main-cards-container-item-main-content">
+                    <p class="main-cards-container-item-main-content-descr">
+                            When you only need to include Bootstrap's compiled CSS or IS, you can use BootstrapCDN.
+                    </p>
+                    
+                    <h2 class="main-cards-container-item-main-content-snippet-title">Css only</h2>
+
+                    <pre class="main-cards-container-item-main-content-snippet"><span class="dark-blue">&lt; link </span><span class="blue">rel=</span><span class="orange">"stylesheet"</span><span class="blue">href="</span><span class="orange">https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"</span><span class="blue">integrity=</span><span class="oragne">"sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"</span><span class="blue">crossorigin=</span> <span class="orange">"anonymous" &gt;</span></pre>
+                    
+                    <h2 class="main-cards-container-item-main-content-snippet-title">JS, Popper.js, and jQuery</h2>
+
+                    <pre class="main-cards-container-item-main-content-snippet"><span class="main-cards-container-item-main-content-snippet-item"><span class="dark-blue">&lt; link </span><span class="blue">rel=</span><span class="orange">"stylesheet"</span><span class="blue">href="</span><span class="orange">https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"</span><span class="blue">integrity=</span><span class="oragne">"sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"</span><span class="blue">crossorigin=</span> <span class="orange">"anonymous" &gt;</span></span><span class="main-cards-container-item-main-content-snippet-item"></span><span class="dark-blue">&lt; link </span><span class="blue">rel=</span><span class="orange">"stylesheet"</span><span class="blue">href="</span><span class="orange">https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"</span><span class="blue">integrity=</span><span class="oragne">"sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"</span><span class="blue">crossorigin=</span> <span class="orange">"anonymous" &gt;</span></span><span class="main-cards-container-item-main-content-snippet-item"></span><span class="dark-blue">&lt; link </span><span class="blue">rel=</span><span class="orange">"stylesheet"</span><span class="blue">href="</span><span class="orange">https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"</span><span class="blue">integrity=</span><span class="oragne">"sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"</span><span class="blue">crossorigin=</span> <span class="orange">"anonymous" &gt;</span></span></pre>
+                </div>
+                <span class="border-bottom">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+            </div>
+            <button class="main-cards-container-item-btn">Explore the docs</button>
+        </div>
+
+        <div class="main-cards-container-item">
+            <div class="main-cards-container-item-main">
+                <img class="main-cards-container-item-main-img" src="assets/imgs/option-i-bootstrap/ico-themes.png">
+                <h1 class="main-cards-container-item-main-title">Official Themes</h1>
+                <div class="main-cards-container-item-main-content">
+                    <p class="main-cards-container-item-main-content-descr">
+                        Take Bootstrap 4 to the next level with official premium themes toolkits built on Bootstrap with new components and plugins, docs, and build tools.
+                    </p>
+                    <img class="main-cards-container-item-main-content-img" src="assets/imgs/option-i-bootstrap/theme_img.png">
+                </div>
+                <span class="border-bottom">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+            </div>
+            <button class="main-cards-container-item-btn">Browse themes</button>
+        </div>
+    </div> 
+    
+    <div id = "footer">
+        <ul id="footer-sections">
+            <li class="footer-sections-item">
+                GitHub
+            </li>
+            <li class="footer-sections-item">
+                Twitter
+            </li>
+            <li class="footer-sections-item">
+                Examples
+            </li>
+            <li class="footer-sections-item">
+                About
+            </li>
+        </ul>
+        <p id="footer-descr">
+            <span class="block-p">
+                Designed and built with all the love in the world by the <span class="black-bold">Bootstrap team</span> with the help of <span class="black-bold">our contributors</span>.
+            </span> 
+            <span class="block-p">
+                Currently v4,3.1. Code licensed <span class="black-bold">MIT</span>, docs <span class="black-bold">CC BY 3.0</span>.
+            </span>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
