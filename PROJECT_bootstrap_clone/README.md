@@ -1,2 +1,2 @@
-* Web fundmentals final project: Bootstrap.com clone
-
+# Web fundmentals final project: Bootstrap.com clone
+---
